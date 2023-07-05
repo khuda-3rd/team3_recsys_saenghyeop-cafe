@@ -16,7 +16,7 @@ base_time = now.strftime("%H%M")
 
 base_minute = int(base_time[2:])
 
-if base_minute <= 30:
+if base_minute >= 30:
     base_hour = base_time[:2]
     base_minute = "30"   
 else:
