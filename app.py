@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 from bs4 import BeautifulSoup
-import datetime
+from datetime import datetime
 from recommend import recommend
 
 
@@ -10,16 +10,20 @@ from recommend import recommend
 service_key = st.secrets['service_key']
 vilage_open_api = 'http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtFcst?'
 
-now = datetime.datetime.now()
+now = datetime.now()
 base_date = now.strftime("%Y%m%d")
+base_time = now.strftime("%H%M")
 
-if now.minute < 30:
-  base_hour = now.hour - 1
-  base_minute = "30"
+base_minute = int(base_time[2:])
+
+if base_minute <= 30:
+    base_hour = base_time[:2]
+    base_minute = "00"   
 else:
-  base_hour = now.hour
-  base_minute = "00"
-base_time = str(base_hour).zfill(2) + base_minute
+    base_hour = str(int(base_time[:2]) - 1).zfill(2)
+    base_minute = "30"
+
+base_time = base_hour + base_minute
 
 # 회기동 좌표 : (nx, ny) = (61, 127)
 nx = 61
