@@ -18,7 +18,7 @@ base_minute = int(base_time[2:])
 
 if base_minute <= 30:
     base_hour = base_time[:2]
-    base_minute = "00"   
+    base_minute = "30"   
 else:
     base_hour = str(int(base_time[:2]) - 1).zfill(2)
     base_minute = "30"
