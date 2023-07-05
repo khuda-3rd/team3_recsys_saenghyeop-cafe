@@ -6,14 +6,14 @@
 ## 👏 팀 소개 
 |권정혁|최용빈|도유정|최보경|
 |:--:|:--:|:--:|:--:|
-|[개인 리포지토리](https://github.com/khuda-3rd)|[개인 리포지토리]((https://github.com/whybe-choi))|[개인 리포지토리](https://github.com/khuda-3rd)|[개인 리포지토리](https://github.com/B0gyeong)|
+|[개인 리포지토리](https://github.com/khuda-3rd)|[개인 리포지토리](https://github.com/whybe-choi)|[개인 리포지토리](https://github.com/khuda-3rd)|[개인 리포지토리](https://github.com/B0gyeong)|
 |Modeling|Modeling, Serving|Modeling|Modeling|
 
 
 ## 🔎 핵심 기능 구현
 ### 1. 데이터 전처리
 
-- 계절에 상관없이 압도적으로 높은 판매량을 자랑하는 아메리카노를 데이터에서 제거함
+- 계절에 상관없이 압도적으로 높은 판매량을 자랑하는 아메리카노를 데이터에서 제거
 - 각 음료별 특성 데이터 수집에서 재료가 함유되어있으면 1, 아니면 0으로 나타낼 수 있는 feature들만 남기고 나머지는 제외
 - 기온 (0,1,2,3), 운량 (0,1), 강수 여부 (0,1)을 기준으로 날씨를 16개의 범주로 그룹화
 
