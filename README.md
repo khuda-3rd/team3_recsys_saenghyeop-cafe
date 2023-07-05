@@ -1,4 +1,3 @@
-# README
 ## 📑 프로젝트 소개
 경희대학교 생협 카페의 데이터를 통해 재고관리의 문제점을 찾고, 이에 대한 해결방안을 제시한다.
 날씨별 음료를 추천하면 고객들이 기존의 다양한 음료보다, 추천된 음료를 소비할 것을 기대할 수 있다.
@@ -7,7 +6,7 @@
 ## 👏 팀 소개 
 |권정혁|최용빈|도유정|최보경|
 |:--:|:--:|:--:|:--:|
-|[개인 리포지토리](https://github.com/khuda-3rd)|[개인 리포지토리](https://github.com/khuda-3rd)|[개인 리포지토리](https://github.com/khuda-3rd)|[개인 리포지토리](https://github.com/B0gyeong)|
+|[개인 리포지토리](https://github.com/khuda-3rd)|[개인 리포지토리]((https://github.com/whybe-choi))|[개인 리포지토리](https://github.com/khuda-3rd)|[개인 리포지토리](https://github.com/B0gyeong)|
 |Modeling|Modeling, Serving|Modeling|Modeling|
 
 
